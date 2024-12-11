@@ -1,0 +1,17 @@
+# relations.txt
+O projeto é organizado da seguinte forma:
+
+- modulo/
+    - __init__.py: Permite que o diretório seja tratado como um módulo Python.
+    - arquivo.py: Contém as implementações das classes principais: Transaction, Account, Investment e Client.
+
+- exemplo.py: Script de exemplo para demonstrar o uso do módulo.
+
+Estrutura das classes:
+1. Transaction: Representa uma transação financeira.
+2. Account: Gerencia transações e saldo.
+3. Investment: Representa um investimento com cálculo de valor futuro.
+4. Client: Gerencia contas e investimentos de um cliente.
+
+Dependências:
+- O projeto utiliza apenas a biblioteca padrão do Python.
